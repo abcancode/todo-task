@@ -99,6 +99,7 @@ body {
   .left--section__contents__wrapper {
     display: block;
     padding: 0 2rem;
+    text-align: center;
   }
 }
 
@@ -114,13 +115,14 @@ body {
 @media screen and (min-width: 249px) {
   .container--left--section__contents {
     margin-bottom: 4rem;
+    margin-left: 0.6rem;
   }
 }
 
 @media screen and (min-width: 600px) {
   .container--left--section__contents {
     margin-bottom: 4rem;
-    margin-left: 0.5rem;
+    margin-left: 0.7rem;
   }
 }
 
@@ -183,9 +185,9 @@ body {
   .upper {
     margin-bottom: 0;
     border-radius: 0.2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 1rem;
-    width: 100%;
+    width: 40%;
   }
 }
 
@@ -198,6 +200,20 @@ body {
 
   .input {
     width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .upper {
+    margin-bottom: 5rem;
+    border-radius: 0.2rem;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0 2rem 0 3rem;
+  }
+
+  .input {
+    width: 100%;
   }
 }
 
