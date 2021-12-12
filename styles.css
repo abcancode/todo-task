@@ -78,6 +78,12 @@ body {
   font-family: var(--font-primary);
 }
 
+@media screen and (max-width: 768px) {
+  .input {
+    border: 1px solid var(--font-color-left);
+  }
+}
+
 ::placeholder {
   font-family: var(--font-primary);
   font-size: 1rem;
